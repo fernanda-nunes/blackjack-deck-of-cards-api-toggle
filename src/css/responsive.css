@@ -1,0 +1,141 @@
+/* Link de Redirecionamento */
+
+@media (max-width: 900px) {
+    .container {
+        padding: 18px 22px;
+        gap: 15px;
+    }
+    .game-info {
+        padding: 18px 18px;
+        gap: 12px;
+        max-width: 100%;
+        font-size: 1.1rem;
+    }
+    .conteudo {
+        max-width: 100%;
+        gap: 10px;
+    }
+    .dados {
+        gap: 12px;
+    }
+    .link {
+        margin: 8px 0;
+        padding: 8px 20px;
+    }
+}
+
+@media (max-width: 760px) {
+    body {
+        font-size: 1rem;
+    }
+    .container {
+        padding: 12px 16px;
+        gap: 10px;
+    }
+    .game-info {
+        padding: 16px 14px;
+        gap: 10px;
+    }
+    .dados {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .conteudo {
+        gap: 8px;
+    }
+    .tabela-pontuacao {
+        width: 100%;
+        font-size: 0.8rem;
+    }
+    .api-title a h1 {
+        font-size: 2rem;
+    }
+    .api-title a p {
+        font-size: 1rem;
+    }
+    .blackjack-logo {
+        max-width: 150px;
+    }
+    .link {
+        margin: 6px 0;
+        padding: 7px 18px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 520px) {
+    .cards {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px;
+    }
+    .card {
+        flex: 0 0 calc(50% - 10px);
+        min-width: 150px;
+        max-width: 50%;
+    }
+    .game-info {
+        padding: 12px 10px;
+        gap: 8px;
+    }
+    .conteudo {
+        gap: 6px;
+    }
+    .container {
+        padding: 10px 8px;
+    }
+    .api-title a h1 {
+        font-size: 1.8rem;
+    }
+    .api-title a p {
+        font-size: 0.9rem;
+    }
+    .blackjack-logo {
+        max-width: 120px;
+    }
+    .link {
+        margin: 4px 0;
+        padding: 6px 16px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 760px) {
+    .card {
+        flex: 1 1 calc(48% - 12px);
+        min-width: 160px;
+        padding: 12px;
+    }
+    .card img {
+        height: 180px;
+    }
+    .cards {
+        gap: 15px;
+    }
+}
+
+@media (max-width: 900px) {
+    .cards {
+        gap: 20px;
+    }
+    .card {
+        padding: 14px;
+    }
+}
+
+@media (max-width: 520px) {
+    .cards {
+        gap: 10px;
+    }
+    .card {
+        flex: 0 0 calc(50% - 10px);
+        max-width: calc(50% - 10px);
+        min-width: 140px;        padding: 10px;    }
+    .card img {
+        height: 220px;
+    }
+    #comprar-carta, #comprar-carta-2 {
+        font-size: 0.95rem;
+        padding: 10px 20px;
+    }
+}

@@ -3,12 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Deck of Cards - API</title>
+    <title>Blackjack - Deck of Cards - API</title>
     <link rel="icon" type="image/png" sizes="32x32" href="./src/imagens/favicon.png">
     <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/toggle.css">
     <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/info.css">
     <link rel="stylesheet" href="./src/css/cards.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+
 
 </head>
 <body>
@@ -40,17 +43,16 @@
 
    <div class="game-info">
 
+    <div class="dados">
+
     <div class="descricao">
     
-    <p> <strong>Blackjack</strong>, ou <strong>21</strong>, é um dos jogos de cartas mais populares do cassino.
-        
+    <p> <strong>Blackjack</strong>, ou <strong>21</strong>, é um dos jogos de cartas mais populares do cassino.  
     <P><u>Aqui</u>, nessa simples demostração do jogo, o objetivo é apenas somar exatamente <strong>21 pontos</strong>, combinando as <strong>duas</strong> cartas.</p>
 
-     <p><strong>Clique</strong> em um <u>botão</u> de cada vez para revelar sua sorte!</p> 
      </div>
-  
-<div class="dados">
-   <div class="curiosidades">
+
+        <div class="curiosidades">
     <h2>Curiosidades</h2>
     <div class="accordion">
         <div class="accordion-item">
@@ -90,6 +92,10 @@
             </div>
         </div>
     </div>
+
+    <a class="link" href="https://pt.wikipedia.org/wiki/Blackjack">Saiba mais...</a>
+
+   </div>
    </div>
 
    <table class="tabela-pontuacao">
@@ -102,7 +108,7 @@
         <tbody>
             <tr>
                 <td>Numeradas (2 ao 10)</td>
-                <td>Valor indicado na carta (ex: 2 = 2 pontos)</td>
+                <td>carta = pontos (ex: 2 = 2 pontos)</td>
             </tr>
             <tr>
                 <td>Figuras (J, Q, K)</td>
@@ -114,26 +120,31 @@
             </tr>
         </tbody>
     </table>
-    
     </div>
-    <a href="https://pt.wikipedia.org/wiki/Blackjack">Para saber mais...</a>
-     </div>
-    
-   <div class="cards">
 
-   <div class="card">
-    
+    <div class="cards-container">
+
+        <div class="info-card">
+    <p class="vamos">Vamos ao jogo!</p>
+    <p><strong>Clique</strong> em um <u>botão</u> de cada vez para revelar sua sorte!</p> 
+        </div>
+
+    <div class="cards">
+     
+    <div class="card">
     <img id="carta" src="https://www.deckofcardsapi.com/static/img/back.png" alt="Carta">
     <button id="comprar-carta" >Compre uma carta</button>
     </div>
 
     <div class="card">
-    
     <img id="carta-2" src="https://www.deckofcardsapi.com/static/img/back.png" alt="Carta">
     <button id="comprar-carta-2" >Compre uma carta</button>
     </div>
 
     </div>
+    </div>
+
+     </div>
 
  </div>
    
