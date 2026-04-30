@@ -55,3 +55,18 @@ body.dark {
  background-color: #121212;
  color: #f0f0f0;
 }
+
+/* Ajustes na tabela para o modo escuro */
+body.dark .tabela-pontuacao {
+    background-color: rgba(255, 255, 255, 0.1); /* Fundo mais claro e suave */
+    border-color: #ffeb3b;
+}
+
+body.dark .tabela-pontuacao td {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+body.dark .tabela-pontuacao th:first-child, 
+body.dark .tabela-pontuacao td:first-child {
+    border-right: 2px solid rgba(255, 255, 255, 0.15);
+}
