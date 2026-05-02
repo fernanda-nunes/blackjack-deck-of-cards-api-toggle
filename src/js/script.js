@@ -47,6 +47,10 @@ function verificarResultado() {
             // Reseta o estado para uma nova rodada
             carta1Clicada = false;
             carta2Clicada = false;
+
+            // Volta as cartas para o verso
+            document.getElementById('carta').src = "https://www.deckofcardsapi.com/static/img/back.png";
+            document.getElementById('carta-2').src = "https://www.deckofcardsapi.com/static/img/back.png";
         }, 300);
     }
 }
